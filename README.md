@@ -29,3 +29,21 @@ In production, this same pattern maps to cloud services like:
 ```bash
 pip install -r requirements.txt
 uvicorn app:app --reload
+## Failure Testing & Hardening
+
+### Failure: Empty Vector Search Result
+
+I intentionally tested the API with a query that had no matching documents in ChromaDB.
+This caused an `IndexError` because the application assumed that search results would
+always return at least one document.
+
+### Root Cause
+ChromaDB can return an empty list when no relevant documents are found.  
+The original implementation accessed nested list indexes without validating their existence.
+
+### Fix
+I added defensive checks to safely handle empty search results:
+
+```python
+docs = results.get("documents") or []
+context = docs[0][0] if docs and docs[0] else ""
