@@ -47,7 +47,7 @@ I added defensive checks to safely handle empty search results:
 ```python
 docs = results.get("documents") or []
 context = docs[0][0] if docs and docs[0] else ""
-
+```
 
 ## Failure Testing & Hardening
 1️⃣ Two Different Ways Knowledge Enters the System
