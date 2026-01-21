@@ -204,6 +204,10 @@ Observing differences in responses before and after re-embedding
 <img width="892" height="323" alt="image" src="https://github.com/user-attachments/assets/bcbf10f0-6dac-463c-bbdd-b8853c10a6ae" />
 <img width="1912" height="1033" alt="image" src="https://github.com/user-attachments/assets/6713cb4b-de15-474b-ac9f-6e477ffc43ad" />
 <img width="1852" height="892" alt="image" src="https://github.com/user-attachments/assets/d053af31-c25c-4667-b6e5-6f9eb486553b" />
+<img width="1855" height="900" alt="image" src="https://github.com/user-attachments/assets/e799fb1b-936a-4d51-a8da-8cf341b2b55b" />
+<img width="1838" height="810" alt="image" src="https://github.com/user-attachments/assets/f5f8812f-5286-453f-9754-240966094dd8" />
+<img width="1802" height="866" alt="image" src="https://github.com/user-attachments/assets/7b305431-2ded-402f-8d11-870058f9605a" />
+<img width="1813" height="972" alt="image" src="https://github.com/user-attachments/assets/b066c887-7ef0-482f-9a33-91a2e1a376f9" />
 
 ### Docker Networking Note (Ollama)
 
@@ -217,10 +221,3 @@ containerized API to communicate with Ollama running on the host system.
 <img width="1034" height="431" alt="image" src="https://github.com/user-attachments/assets/568a3f00-fca5-4155-936a-e9803537cfa9" />
 <img width="1092" height="262" alt="image" src="https://github.com/user-attachments/assets/5138545d-e1ff-4f7c-8f91-391e5176ae33" />
 <img width="1504" height="174" alt="image" src="https://github.com/user-attachments/assets/d35a057d-e9b1-41a8-b8f1-cab7d8cd0afc" />
-
-
-
-<img width="1855" height="900" alt="image" src="https://github.com/user-attachments/assets/e799fb1b-936a-4d51-a8da-8cf341b2b55b" />
-<img width="1838" height="810" alt="image" src="https://github.com/user-attachments/assets/f5f8812f-5286-453f-9754-240966094dd8" />
-<img width="1802" height="866" alt="image" src="https://github.com/user-attachments/assets/7b305431-2ded-402f-8d11-870058f9605a" />
-<img width="1813" height="972" alt="image" src="https://github.com/user-attachments/assets/b066c887-7ef0-482f-9a33-91a2e1a376f9" />
